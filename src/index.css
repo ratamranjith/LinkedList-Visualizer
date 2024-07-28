@@ -1,0 +1,125 @@
+/* Style for the node component */
+.node {
+  display: inline-block;
+  margin: 10px 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, opacity 0.2s;
+  background-color: #f3f4f6; /* Light gray background */
+  padding: 20px; /* Increase padding for better visibility */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the buttons */
+button {
+  font-size: 16px; /* Larger text size */
+  padding: 10px 20px; /* Larger padding */
+  border: #4b5563 5px;
+  border-radius: 8px;
+  margin: 4%;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #4b5563; /* Darker gray for hover effect */
+}
+
+button.bg-blue-500 {
+  background-color: #3b82f6; /* Blue background */
+}
+
+button.bg-blue-500:hover {
+  background-color: #2563eb; /* Darker blue on hover */
+}
+
+button.bg-green-500 {
+  background-color: #10b981; /* Green background */
+}
+
+button.bg-green-500:hover {
+  background-color: #059669; /* Darker green on hover */
+}
+
+button.bg-yellow-500 {
+  background-color: #f59e0b; /* Yellow background */
+}
+
+button.bg-yellow-500:hover {
+  background-color: #eab308; /* Darker yellow on hover */
+}
+
+button.bg-red-500 {
+  background-color: #ef4444; /* Red background */
+}
+
+button.bg-red-500:hover {
+  background-color: #dc2626; /* Darker red on hover */
+}
+
+/* Style for the trash can */
+.trash-can {
+  position: fixed;
+  top: 5%; /* Adjust the top position */
+  left: 95%; /* Adjust the left position */
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ef4444; /* Red background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s;
+}
+
+.trash-can:hover {
+  background-color: #dc2626; /* Darker red on hover */
+}
+
+/* General container styles */
+.container {
+  padding: 20px;
+}
+
+.container .header {
+  margin-bottom: 20px;
+}
+
+.container .search-container {
+  margin-bottom: 20px;
+}
+
+.container .nodes-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container .buttons-container {
+  display: flex;
+  gap: 20px;
+}
+
+.memory-address {
+  display: block;
+  font-size: 14px;
+  color: #9ca3af; /* Light gray color for memory address */
+  margin-top: 4px;
+}
+
+.node {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, opacity 0.2s;
+  background-color: #f3f4f6;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative; /* Positioning absolute for animation */
+}
